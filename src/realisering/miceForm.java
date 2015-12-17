@@ -28,8 +28,6 @@ public class miceForm extends javax.swing.JFrame {
             String workingDir = System.getProperty("user.dir");
             idb = new InfDB(workingDir + "\\MICEDB (1).FDB");
             System.out.println("Uppkopplingen lyckades!");
-            
-            String testcommit = "";
         }
         catch(InfException e)
         {
